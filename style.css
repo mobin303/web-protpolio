@@ -3,7 +3,7 @@
 .half{
     width:35%;
     float: left;
-    margin-left: 5%;
+    margin-left: 10%;
     padding-left: 2%;
    
 }
@@ -22,11 +22,19 @@ h1{
 .top-banner{
     background-image: url("images/top-banner.png");
     border: 1px solid orangered;
-    background-repeat: no-repeat;
+    background-repeat:repeat;
 }
 section{
     height: 500px;
 }
 body{
     margin:0%;
+}
+.link{
+    text-decoration: double;
+    background-color: olive;
+    padding:15px 40px;
+    border-radius: 5px;
+    color:lavender;
+    font-weight: 5px;
 }
