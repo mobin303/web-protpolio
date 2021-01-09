@@ -1,4 +1,7 @@
 
+#expri{
+    text-align: center;
+}
 p{
     color:lightslategray;
 }
@@ -10,7 +13,9 @@ p{
 }
 
 body{
-    font-family: 'Poppins', sans-serif;}
+    font-family: 'Poppins', sans-serif;
+    
+}
 
 h1{
     font-size: 50px;
@@ -21,7 +26,7 @@ h2{
 h3{
     font-size: 20px;
 }
-.color{
+.color-hilight{
     color:olive
 }
 .half img{
@@ -49,4 +54,19 @@ body{
 }
 .middle img{
     width: 100%;
+}
+.middle-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.blog{
+    box-shadow: 10px 10px 50px rgb(184, 156, 156);
+    border-radius: 20px;
+    height:70%;
+}
+.end-banner{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:inherit;
 }
