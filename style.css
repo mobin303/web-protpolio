@@ -59,14 +59,31 @@ body{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    background-color: whitesmoke;
 }
 .blog{
-    box-shadow: 10px 10px 50px rgb(184, 156, 156);
-    border-radius: 20px;
+    box-shadow: 10px 10px 40px rgb(184, 156, 156);
+    border-radius: 10px;
     height:70%;
+    
 }
 .end-banner{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position:inherit;
+}
+#full{
+    border-left: 10px solid; 
+    border-image:linear-gradient (180deg,blue solid);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 10px solid;
+    border-color: slateblue;
+
+}
+footer p{
+    text-align: center;
+    font-size: 20px;
+    color:blue;
 }
